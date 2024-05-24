@@ -1,0 +1,17 @@
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: purple;
+}
+
+p {
+    line-height: 32px;
+    color: rgb(129, 163, 122);
+}
+
+li {
+    line-height: 32px;
+    color: #7e3;
+}

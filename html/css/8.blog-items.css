@@ -1,0 +1,64 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #eee;
+}
+
+.main-box {
+    width: 992px;
+    background-color: #ddd;
+}
+
+.main-box .inner-box {
+    width: 960px;
+    background-color: #fff;    
+    margin: 0px auto;
+    display: flex;
+}
+
+.main-box .inner-box .inner-item-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: lightgrey;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .main-box .inner-box .inner-item-box .image-box {
+    width: 200px;
+    height: auto;
+} */
+
+.main-box .inner-box .inner-item-box .image-box img.image-item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.main-box .inner-box .inner-item-box .content-box {
+    width: 100%;
+}
+
+.main-box .inner-box .inner-item-box-1 {
+    border: 1px solid #641E16;
+    background-color: #F9EBEA;
+    color: #C0392B;
+}
+
+.main-box .inner-box .inner-item-box-2 {
+    border: 1px solid #145A32;
+    background-color: #E9F7EF;
+    color: #27AE60;
+}
+
+.main-box .inner-box .inner-item-box-3 {
+    border: 1px solid #1B4F72;
+    background-color: #EAF2F8;
+    color: #2980B9;
+}

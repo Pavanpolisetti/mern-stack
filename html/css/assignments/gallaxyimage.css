@@ -1,0 +1,9 @@
+.gallaxy{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.gallery-item img:hover {
+    transform: scale(1.1);
+}

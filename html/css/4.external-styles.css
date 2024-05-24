@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: purple;
+}
+
+p {
+    line-height: 32px;
+}
+
+li {
+    line-height: 32px;
+}

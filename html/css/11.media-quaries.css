@@ -1,0 +1,46 @@
+/* base styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* media queries */
+/* large devices */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: lightskyblue;
+    }
+
+    header, footer {
+        background-color: #efe;
+    }
+}
+
+/* medium devices */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightseagreen;
+    }
+
+    header, footer {
+        background-color: #efcefc;
+    }
+}
+
+/* small devices */
+@media screen and (max-width: 576px) {
+    body {
+        background-color: lightblue;
+    }
+
+    header, footer {
+        background-color: #def;
+    }
+}
