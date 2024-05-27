@@ -1,0 +1,36 @@
+.box{
+    background-color: rgb(238, 144, 194);
+    width: px;
+    height: 600px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-style: italic;
+    display: flex
+}
+
+.box1{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
+.box2{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
+.box3{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
