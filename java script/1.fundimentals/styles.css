@@ -1,0 +1,13 @@
+body{
+    height:100vh;
+    display:flux;
+    width: 100%;
+    
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightslategray;
+    width: 100%;
+}

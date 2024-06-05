@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strict Mode Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Strict Mode Demo</h1>
+
+  <button onclick="withoutStrictMode()">Without 'use strict'</button>
+  <button onclick="withStrictMode()">With 'use strict'</button>
+
+  <script>
+    function withoutStrictMode() {
+      console.log("Running code without 'use strict'");
+      x = 10; // This implicitly declares a global variable
+      console.log("Value of x:", x);
+    }
+
+    function withStrictMode() {
+      "use strict";
+      console.log("Running code with 'use strict'");
+      // The following line will throw a ReferenceError
+      // because 'x' is not declared
+      // Uncomment this line to see the error
+      // x = 10;
+      console.log("Value of x:", x); // This line will not execute due to the error
+    }
+  </script>
+</body>
+</html>

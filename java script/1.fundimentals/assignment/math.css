@@ -1,0 +1,29 @@
+body {
+    height:100vh;
+    display:flux;
+    width: 100%;
+    color: whitesmoke;
+    background-color: lightgrey;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightslategray;
+    width: 100%;
+}
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+  
+input, button {
+    margin: 10px;
+    padding: 5px;
+}
+  
+#results {
+    margin-top: 20px;
+}
